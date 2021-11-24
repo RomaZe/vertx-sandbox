@@ -8,7 +8,7 @@ FROM adoptopenjdk:11-jre-hotspot
 # Alternative https://hub.docker.com/_/amazoncorretto
 # FROM amazoncorretto:11
 
-ENV FAT_JAR vertx-starter-1.0.0-SNAPSHOT-fat.jar
+ENV FAT_JAR vertx-sandbox-1.0.0-SNAPSHOT-fat.jar
 ENV APP_HOME /usr/app
 
 EXPOSE 8888

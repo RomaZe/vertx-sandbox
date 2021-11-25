@@ -38,6 +38,10 @@ dependencyManagement {
 dependencies {
   implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
   implementation("io.vertx:vertx-core")
+  implementation("io.vertx:vertx-jdbc-client")
+  implementation("io.agroal:agroal-api:1.13")
+  implementation("io.agroal:agroal-pool:1.13")
+  implementation("org.postgresql:postgresql:42.3.1")
   implementation("com.fasterxml.jackson.core:jackson-databind:$versionJackson")
   implementation("org.apache.logging.log4j:log4j-api")
   implementation("org.apache.logging.log4j:log4j-core")
